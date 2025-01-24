@@ -1,11 +1,11 @@
-package com.micoder.sbdemo.controllers.admin
+package com.micoder.sbdemo.controllers.api.admin
 
 import com.micoder.sbdemo.domain.*
 import com.micoder.sbdemo.domain.dto.CategoryDto
 import com.micoder.sbdemo.domain.dto.MovieDto
 import com.micoder.sbdemo.domain.dto.UserDto
 import com.micoder.sbdemo.domain.model.ResponseModel
-import com.micoder.sbdemo.service.AdminService
+import com.micoder.sbdemo.service.api.AdminService
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*

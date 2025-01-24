@@ -1,9 +1,9 @@
-package com.micoder.sbdemo.controllers.auth
+package com.micoder.sbdemo.controllers.api.auth
 
 import com.micoder.sbdemo.domain.model.LoginRequest
 import com.micoder.sbdemo.domain.model.ResponseModel
 import com.micoder.sbdemo.security.JwtUtil
-import com.micoder.sbdemo.service.AuthService
+import com.micoder.sbdemo.service.api.AuthService
 import org.springframework.http.HttpHeaders
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseCookie

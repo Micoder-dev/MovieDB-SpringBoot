@@ -44,9 +44,10 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-actuator") // Actuator for monitoring and metrics
 
     // Database and migration
-    runtimeOnly("org.postgresql:postgresql") // PostgreSQL database driver
-    implementation("org.flywaydb:flyway-core") // Flyway for database migrations
-    implementation("org.flywaydb:flyway-database-postgresql") // PostgreSQL-specific Flyway support
+    // runtimeOnly("org.postgresql:postgresql") // PostgreSQL database driver
+    // implementation("org.flywaydb:flyway-core") // Flyway for database migrations
+    // implementation("org.flywaydb:flyway-database-postgresql") // PostgreSQL-specific Flyway support
+    runtimeOnly("com.mysql:mysql-connector-j")
 
     // Environment configuration (from Other Deps)
     implementation("io.github.cdimascio:dotenv-kotlin:6.3.1") // dotenv for managing environment variables

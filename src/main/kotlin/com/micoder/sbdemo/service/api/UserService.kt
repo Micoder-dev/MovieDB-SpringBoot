@@ -1,4 +1,4 @@
-package com.micoder.sbdemo.service
+package com.micoder.sbdemo.service.api
 
 import com.micoder.sbdemo.domain.entities.CategoryEntity
 import com.micoder.sbdemo.domain.entities.MovieEntity

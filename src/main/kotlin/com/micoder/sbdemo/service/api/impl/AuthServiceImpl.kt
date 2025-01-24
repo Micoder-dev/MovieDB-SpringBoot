@@ -1,8 +1,8 @@
-package com.micoder.sbdemo.service.impl
+package com.micoder.sbdemo.service.api.impl
 
 import com.micoder.sbdemo.domain.entities.UserEntity
 import com.micoder.sbdemo.repository.AuthRepository
-import com.micoder.sbdemo.service.AuthService
+import com.micoder.sbdemo.service.api.AuthService
 import org.springframework.security.core.userdetails.UsernameNotFoundException
 import org.springframework.security.crypto.password.PasswordEncoder
 import org.springframework.stereotype.Service

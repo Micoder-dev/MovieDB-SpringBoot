@@ -1,12 +1,14 @@
 package com.micoder.sbdemo.config.user
 
+import com.micoder.sbdemo.domain.Role
 import org.springframework.security.core.GrantedAuthority
 import org.springframework.security.core.userdetails.UserDetails
 
 class CustomUserDetails(
     private val username: String,
     private val password: String,
-    val role: String,
+    val age: Int,
+    val role: Role,
     private val authorities: Collection<GrantedAuthority>
 ) : UserDetails {
 

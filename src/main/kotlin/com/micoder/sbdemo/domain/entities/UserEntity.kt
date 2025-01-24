@@ -25,13 +25,4 @@ data class UserEntity(
 
     @Enumerated(EnumType.STRING)
     val role: Role = Role.USER
-) {
-    constructor() : this(
-        id = null,
-        userName = "",
-        password = "",
-        age = 0,
-        image = null,
-        role = Role.USER
-    )
-}
+)

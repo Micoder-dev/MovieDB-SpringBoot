@@ -1,4 +1,4 @@
-package com.micoder.sbdemo.controllers.user
+package com.micoder.sbdemo.controllers.api.user
 
 import com.micoder.sbdemo.domain.dto.UserDto
 import com.micoder.sbdemo.domain.model.ResponseModel
@@ -6,7 +6,7 @@ import com.micoder.sbdemo.domain.toCategoryDto
 import com.micoder.sbdemo.domain.toMovieDto
 import com.micoder.sbdemo.domain.toUserDto
 import com.micoder.sbdemo.domain.toUserEntity
-import com.micoder.sbdemo.service.UserService
+import com.micoder.sbdemo.service.api.UserService
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*

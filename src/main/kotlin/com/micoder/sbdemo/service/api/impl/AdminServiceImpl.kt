@@ -1,4 +1,4 @@
-package com.micoder.sbdemo.service.impl
+package com.micoder.sbdemo.service.api.impl
 
 import com.micoder.sbdemo.domain.entities.CategoryEntity
 import com.micoder.sbdemo.domain.entities.MovieEntity
@@ -6,7 +6,7 @@ import com.micoder.sbdemo.domain.entities.UserEntity
 import com.micoder.sbdemo.repository.CategoryRepository
 import com.micoder.sbdemo.repository.MovieRepository
 import com.micoder.sbdemo.repository.UserRepository
-import com.micoder.sbdemo.service.AdminService
+import com.micoder.sbdemo.service.api.AdminService
 import jakarta.transaction.Transactional
 import org.springframework.security.crypto.password.PasswordEncoder
 import org.springframework.stereotype.Service
